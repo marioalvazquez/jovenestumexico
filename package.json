@@ -1,0 +1,19 @@
+{
+  "name": "jovenestumexico",
+  "version": "1.0.0",
+  "description": "Repository for non-profit organization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioalvazquez/jovenestumexico.git"
+  },
+  "author": "Mario Vázquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marioalvazquez/jovenestumexico/issues"
+  },
+  "homepage": "https://github.com/marioalvazquez/jovenestumexico#readme"
+}
