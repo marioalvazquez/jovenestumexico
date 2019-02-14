@@ -735,7 +735,8 @@ input:focus {
 .single-portfolio-slide {
   position: relative;
   z-index: 1;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+border-radius: 50% !important;}
   .single-portfolio-slide img {
     position: relative;
     z-index: 1;
@@ -753,7 +754,11 @@ input:focus {
     background-color: rgba(231, 242, 253, 0.9);
     padding: 40px 30px;
     opacity: 0;
-    visibility: hidden; }
+    visibility: hidden;
+  border-radius: 50% !important;}
+  .single-portfolio-slide .overlay-effect h4{
+    margin-left: 1rem;
+  }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-portfolio-slide .overlay-effect {
         padding: 30px; } }
@@ -1319,11 +1324,7 @@ input:focus {
     color: #303030;
     text-align: center;
     line-height: 110px;
-    border-radius: 80px 200px 200px 362px;
-    margin: 0 auto 30px;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms; }
+    margin: 0 auto 30px; }
   .single-service-area h5 {
     font-size: 22px;
     display: block;
