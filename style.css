@@ -2083,3 +2083,96 @@ border-radius: 50% !important;}
     padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.single-welcome-slide{
+    background: url('img/main-img/blueoj.jpg');
+    background-size: cover;
+    background-position: 50%;
+}
+
+.classynav #nav li a{
+    color: #FFF;
+}
+
+.welcome-text h2, h5{
+    color: #FFF !important; 
+}
+
+.round{
+    height:250px;
+    width:250px;
+    background: white;
+    border-radius:50%;
+}
+
+.unete {
+    padding-top: 5rem;
+    color: #173AB6;
+    font-size:32px;
+    font-weight:900;
+}
+section#nosotros {
+    padding-top: 5rem;
+}
+.uza-btn{
+    border-radius: 0 !important;
+}
+
+.about-bg-pattern-c{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        height: 100%;
+}
+.about-bg-pattern-c img{
+        height: 100%;
+        width: auto;
+}
+
+.about-bg-pattern-footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -20px;
+    z-index: -1;
+    height: 100%;
+}
+
+    .about-bg-pattern-footer img {
+        height: 100%;
+        width: 100%;
+    }
+
+.text-blue {
+    color:#173AB6 !important;
+}
+.title{
+    font-style: italic;
+}
+.service-icon{
+    background: none !important;
+}
+
+.list-cabellera li{
+    padding: .2rem 0;
+    font-size:1rem;
+}
+a.twitter, a.facebook {
+    background-color: #173AB6 !important;
+}
+.header-area .main-header-area.sticky {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #ffd7d7 !important;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+    border-bottom: none;
+    left: 0;
+    z-index: 650;
+}

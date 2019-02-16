@@ -94,4 +94,4 @@ gulp.task('css', function() {
     .pipe(gulp.dest('src/css'))
 })
 
-gulp.task('default', ['js', 'scripts', 'css', 'fafonts', 'elefonts']);
+gulp.task('default', ['js', 'scripts', 'css', 'fafonts', 'elefonts', 'webserver']);
