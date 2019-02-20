@@ -25,7 +25,37 @@
             <div class="cssload-loader"></div>
         </div>
     </div>
+    <div class="top-search-area">
+        <!-- Search Modal -->
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close Button -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                        <!-- Form -->
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p><b>Cuenta:</b> CANICA AGUASCALIENTES CENTRO DE APOYO A NIÑOS CON CÁNCER IBP.</p>
+                                <p><b>No. DE CUENTA:</b> 01505051541</p>
+                                <p><b>CLABE INTERBANCARIA:</b> 044010015050515418.</p>
+                                <p><b>BANCO:</b> SCOTIABANK..</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="width:200px !important; margin: 0 auto !important; padding-top:5rem;">
+                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                    <input type="hidden" name="hosted_button_id" value="RDYFJXEXN2KXC" />
+                                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                                    <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+                                </form>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- ***** Header Area Start ***** -->
     <header class="header-area">
         <!-- Main Header Start -->
@@ -63,10 +93,10 @@
                             </ul>
 
                             <!-- Get A Quote
-                        <div class="get-a-quote ml-4 mr-3">
-                            <a href="#btn-donar" class="btn uza-btn">Donar</a>
-                        </div>
-                         -->
+                            <div class="get-a-quote ml-4 mr-3">
+                                <a href="#btn-donar" class="btn uza-btn">Donar</a>
+                            </div>
+                             -->
                         </div>
                         <!-- Nav End -->
 
@@ -76,7 +106,6 @@
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
-
     <!-- ***** Breadcrumb Area Start ***** -->
     <div class="breadcrumb-area">
 
@@ -86,7 +115,6 @@
         </div>
     </div>
     <!-- ***** Breadcrumb Area End ***** -->
-
     <!-- ***** Portfolio Single Area Start ***** -->
     <section class="uza-portfolio-single-area section-padding-10">
         <div class="container">
@@ -97,9 +125,9 @@
                         <h6>Meta: $5,000.00 MXN</h6>
                         <p>
 
-                            Soy Gerardo Pérez González, Ingeniero en Sistemas Computacionales y actualmente trabajo en el equipo de Cyber 
-                            Seguridad para el cliente de Softtek, AMR, actualmente también desempeño el rol de Presidente del Club Rotaract 
-                            San Marcos y participo activamente en cualquier actividad deportiva a la que se me invite como jugar tenis, 
+                            Soy Gerardo Pérez González, Ingeniero en Sistemas Computacionales y actualmente trabajo en el equipo de Cyber
+                            Seguridad para el cliente de Softtek, AMR, actualmente también desempeño el rol de Presidente del Club Rotaract
+                            San Marcos y participo activamente en cualquier actividad deportiva a la que se me invite como jugar tenis,
                             fútbol, caminata de campo, etc.
                         </p>
                     </div>
@@ -118,7 +146,7 @@
                         <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
                     </div>
                     <div>
-                      <a href="#" class="btn uza-btn" id="btn-donar">Donar</a>
+                        <a href="#" class="btn uza-btn" id="btn-donar" data-toggle="modal" data-target="#searchModal">Donar</a>
                     </div>
                 </div>
             </div>
@@ -135,7 +163,6 @@
         </div>
     </section>
     <!-- ***** Portfolio Single Area End ***** -->
-
     <!-- ***** Newsletter Area Start ***** -->
     <section class="uza-newsletter-area">
         <div class="container">
@@ -162,7 +189,6 @@
         </div>
     </section>
     <!-- ***** Newsletter Area End ***** -->
-
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-area section-padding-80-0">
         <div class="container">
@@ -227,7 +253,6 @@
         </div>
     </footer>
     <!-- ***** Footer Area End ***** -->
-
     <!-- ******* All JS Files ******* -->
     <!-- jQuery js -->
     <script src="js/jquery.min.js"></script>
