@@ -19,6 +19,14 @@
 </head>
 
 <body>
+    <style media="screen">
+        .breadcrumb-area {
+            height: 100px !important;
+        }
+        #InformationVideo{
+            width: 100%;
+        }
+    </style>
     <!-- Preloader -->
     <div id="preloader">
         <div class="wrapper">
@@ -59,7 +67,7 @@
     <!-- ***** Header Area Start ***** -->
     <header class="header-area">
         <!-- Main Header Start -->
-        <div class="main-header-area">
+        <div class="main-header-area sticky">
             <div class="classy-nav-container breakpoint-off">
                 <!-- Classy Menu -->
                 <nav class="classy-navbar justify-content-between" id="uzaNav">
@@ -102,11 +110,6 @@
     <!-- ***** Header Area End ***** -->
     <!-- ***** Breadcrumb Area Start ***** -->
     <div class="breadcrumb-area">
-
-        <!-- Background Curve -->
-        <div class="breadcrumb-bg-curve">
-            <img src="./img/core-img/curve-5.png" alt="">
-        </div>
     </div>
     <!-- ***** Breadcrumb Area End ***** -->
     <!-- ***** Portfolio Single Area Start ***** -->
@@ -114,39 +117,36 @@
         <div class="container">
             <div class="row justify-content-between align-items-end">
                 <div class="col-12 col-md-6">
-                    <div class="portfolio-details-text">
-                        <h2>Jonathan Ponce</h2>
-                        <h6>Meta: $1,000.00 MXN</h6>
-                        <p>
-                            Me llamo Jonathan Ponce tengo 25 de edad, soy abogado, piloto aviador e instructor de gimnasia, me gusta apoyar a la gente y aprender cosas nuevas.
-                        </p>
-                    </div>
+                    <video id="InformationVideo" class="information__video information__video--visible" muted controls preload="auto" autoplay loop>
+                        <source src="/media/Video Jonathan.MP4" type=video/mp4 />
+                    </video>  
                 </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="portfolio-meta">
-                        <h6>Fecha: 15 FEB 2019</h6>
-                        <h6>Ubicación: Aguascalientes</h6>
+                <div class="col-12 col-md-6">
+                    <div class="col-12">
+                        <div class="portfolio-details-text">
+                            <h2>Jonathan Ponce</h2>
+                            <h6>Meta: $1,000.00 MXN</h6>
+                            <p>
+                                Me llamo Jonathan Ponce tengo 25 de edad, soy abogado, piloto aviador e instructor de gimnasia, me gusta apoyar a la gente y aprender cosas nuevas.
+                            </p>
+                        </div>
                     </div>
-                    <div class="portfolio-social-info d-flex align-items-center">
-                        <p>Compartir:</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-feed" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
-                    </div>
-                    <div>
-                        <a href="#" class="btn uza-btn" id="btn-donar"  data-toggle="modal" data-target="#searchModal">Donar</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="portfolio-thumbnail mt-80">
-                        <video id="InformationVideo" class="information__video information__video--visible" muted controls preload="auto" autoplay loop>
-                            <source src="/media/Video Jonathan.MP4" type=video/mp4 />
-                        </video>
+                    <div class="col-12">
+                        <div class="portfolio-meta">
+                            <h6>Fecha: 15 FEB 2019</h6>
+                            <h6>Ubicación: Aguascalientes</h6>
+                        </div>
+                        <div class="portfolio-social-info d-flex align-items-center">
+                            <p>Compartir:</p>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-feed" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                        </div>
+                        <div>
+                            <a href="#" class="btn uza-btn" id="btn-donar" data-toggle="modal" data-target="#searchModal">Donar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -253,7 +253,7 @@
     <!-- All js -->
     <script src="js/uza.bundle.js"></script>
     <!-- Active js -->
-    <script src="js/default-assets/active.js"></script>
+    <script src="js/default-assets/active2.js"></script>
 
 </body>
 

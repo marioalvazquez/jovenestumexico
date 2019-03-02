@@ -19,6 +19,15 @@
 </head>
 
 <body>
+    <style media="screen">
+        .breadcrumb-area {
+            height: 100px !important;
+        }
+
+        #InformationVideo {
+            width: 100%;
+        }
+    </style>
     <!-- Preloader -->
     <div id="preloader">
         <div class="wrapper">
@@ -59,7 +68,7 @@
     <!-- ***** Header Area Start ***** -->
     <header class="header-area">
         <!-- Main Header Start -->
-        <div class="main-header-area">
+        <div class="main-header-area sticky">
             <div class="classy-nav-container breakpoint-off">
                 <!-- Classy Menu -->
                 <nav class="classy-navbar justify-content-between" id="uzaNav">
@@ -108,57 +117,49 @@
     <!-- ***** Header Area End ***** -->
     <!-- ***** Breadcrumb Area Start ***** -->
     <div class="breadcrumb-area">
-
-        <!-- Background Curve -->
-        <div class="breadcrumb-bg-curve">
-            <img src="./img/core-img/curve-5.png" alt="">
-        </div>
     </div>
     <!-- ***** Breadcrumb Area End ***** -->
     <!-- ***** Portfolio Single Area Start ***** -->
     <section class="uza-portfolio-single-area section-padding-10">
         <div class="container">
-            <div class="row justify-content-between align-items-end">
+            <div class="row justify-content-between">
                 <div class="col-12 col-md-6">
-                    <div class="portfolio-details-text">
-                        <h2>Andrés, Jesús y Miguel </h2>
-                        <h6>Meta: $25,000.00 MXN</h6>
-                        <p>
-                            Andrés Escobedo se sitúa en el grupo de jóvenes emprendedores ejemplo para muchos que hoy en día desean hacer carrera en el mundo social, empresarial y político de nuestro Estado, convirtiéndose en una referente para los que al igual que ellos persiguen sus metas sin descanso hasta lograr alcanzarlas, siendo parte de una nueva generación de jóvenes pujantes que tienen sed de triunfo, y el impulso para lograrlo.
-
-                            Soy abogado, y cuento con estudios en Derecho por la Universidad Autónoma de Aguascalientes y por la Facultad de Derecho de la UNAM, actualmente trabajando en la dirección de gobierno.
-
-                            Soy Jesús González Cabello, Ingeniero Civil egresado de la autónoma de Aguascalientes, actualmente soy empresario en el ramo de la construcción, practico diversos deportes entre los que destacan el fútbol y el squash, aproximadamente tengo 4 años colaborando en diversas actividades de servicio social.
-
-                            Miguel Ángel Pérez Nieva soy egresado de la Universidad Politécnica de Aguascalientes en Ingeniería Mecatronica, persona socialmente responsable participando activamente desde joven en proyectos relacionados con el servicio humanitario y desarrollo social, es un miembro activo y destacado del club Rotaract Aguascalientes San Marcos llegando a ocupar el cargo de Presidente.
-                        </p>
-                    </div>
+                    <video id="InformationVideo" class="information__video information__video--visible" muted controls preload="auto" autoplay loop>
+                        <source src="/media/Video Andres, Jesús y Miguel.MP4" type=video/mp4 />
+                    </video>
                 </div>
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="portfolio-meta">
-                        <h6>Fecha: 15 FEB 2019</h6>
-                        <h6>Ubicación: Aguascalientes</h6>
-                    </div>
-                    <div class="portfolio-social-info d-flex align-items-center">
-                        <p>Compartir:</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-feed" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
-                    </div>
-                    <div>
-                        <a href="#" class="btn uza-btn" id="btn-donar" data-toggle="modal" data-target="#searchModal">Donar</a>
-                    </div>
-                </div>
-            </div>
+                <div class="col-12 col-md-6">
+                    <div class="col-12">
+                        <div class="portfolio-details-text">
+                            <h2>Andrés, Jesús y Miguel </h2>
+                            <h6>Meta: $25,000.00 MXN</h6>
+                            <p>
+                                Andrés Escobedo se sitúa en el grupo de jóvenes emprendedores ejemplo para muchos que hoy en día desean hacer carrera en el mundo social, empresarial y político de nuestro Estado, convirtiéndose en una referente para los que al igual que ellos persiguen sus metas sin descanso hasta lograr alcanzarlas, siendo parte de una nueva generación de jóvenes pujantes que tienen sed de triunfo, y el impulso para lograrlo.
 
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="portfolio-thumbnail mt-80">
-                        <video id="InformationVideo" class="information__video information__video--visible" muted controls preload="auto" autoplay loop>
-                            <source src="/media/Video Andres, Jesús y Miguel.MP4" type=video/mp4 />
-                        </video>
+                                Soy abogado, y cuento con estudios en Derecho por la Universidad Autónoma de Aguascalientes y por la Facultad de Derecho de la UNAM, actualmente trabajando en la dirección de gobierno.
+
+                                Soy Jesús González Cabello, Ingeniero Civil egresado de la autónoma de Aguascalientes, actualmente soy empresario en el ramo de la construcción, practico diversos deportes entre los que destacan el fútbol y el squash, aproximadamente tengo 4 años colaborando en diversas actividades de servicio social.
+
+                                Miguel Ángel Pérez Nieva soy egresado de la Universidad Politécnica de Aguascalientes en Ingeniería Mecatronica, persona socialmente responsable participando activamente desde joven en proyectos relacionados con el servicio humanitario y desarrollo social, es un miembro activo y destacado del club Rotaract Aguascalientes San Marcos llegando a ocupar el cargo de Presidente.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="portfolio-meta">
+                            <h6>Fecha: 15 FEB 2019</h6>
+                            <h6>Ubicación: Aguascalientes</h6>
+                        </div>
+                        <div class="portfolio-social-info d-flex align-items-center">
+                            <p>Compartir:</p>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-feed" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                        </div>
+                        <div>
+                            <a href="#" class="btn uza-btn" id="btn-donar" data-toggle="modal" data-target="#searchModal">Donar</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -265,7 +266,7 @@
     <!-- All js -->
     <script src="js/uza.bundle.js"></script>
     <!-- Active js -->
-    <script src="js/default-assets/active.js"></script>
+    <script src="js/default-assets/active2.js"></script>
 
 </body>
 

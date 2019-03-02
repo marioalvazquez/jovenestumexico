@@ -213,11 +213,7 @@
     // :: 14.0 Sticky Active Code
     // **************************
     uza_window.on('scroll', function () {
-        if (uza_window.scrollTop() > 0) {
-            $('.main-header-area').addClass('sticky');
-        } else {
-            $('.main-header-area').removeClass('sticky');
-        }
+      
     });
 
     // ********************************
